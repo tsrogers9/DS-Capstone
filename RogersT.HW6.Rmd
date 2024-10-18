@@ -1,0 +1,45 @@
+---
+title: "HW 6"
+author: "Tayae Rogers"
+date: "10/16/2024"
+output: pdf_document
+---
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+library(sf)
+```
+
+Read in Blue Bike data
+```{r}
+june21 <- read.csv("202106-bluebikes-tripdata.csv", header=TRUE)
+july21 <- read.csv("202107-bluebikes-tripdata.csv", header=TRUE)
+aug21 <- read.csv("202108-bluebikes-tripdata.csv", header=TRUE)
+
+june22 <- read.csv("202206-bluebikes-tripdata.csv", header=TRUE)
+july22 <- read.csv("202207-bluebikes-tripdata.csv", header=TRUE)
+aug22 <- read.csv("202208-bluebikes-tripdata.csv", header=TRUE)
+```
+
+Read in MBTA data
+Current status: having trouble importing the sf package and reading in the 
+shapefile with sf package
+```{r}
+# mbta_stations <- read.csv('')
+```
+
+
+```{r}
+# list of all unique Blue Bike station names and latitude/longitude coordinates
+# list of relevant MBTA station names and latitude/longitude coordinates
+### Kendall/MIT, Central, Harvard, Porter, Davis, Alewife
+# find bike stations within 0.15 miles of T stations
+```
+
+
+
+
+
+
