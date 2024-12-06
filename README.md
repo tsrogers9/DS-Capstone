@@ -1,6 +1,8 @@
 # DS-Capstone
 This repository is for files for my data science capstone final project.
 
+This project examines the Blue Bike trips in summer 2023, and how their travel times compare with corresponding hypothetical T trips.
+
 Data files:
 - Blue Bikes trips (Summer 2023)
 -- 202306-bluebikes-tripdata.csv
