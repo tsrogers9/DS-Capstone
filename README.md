@@ -4,7 +4,7 @@ This repository is for files for my data science capstone final project.
 This project examines the Blue Bike trips in summer 2023, and how their travel times compare with corresponding hypothetical T trips.
 
 Data folder:
-
+-
 Blue Bikes trips (Summer 2023)
 - 202306-bluebikes-tripdata.csv
 - 202307-bluebikes-tripdata.csv
@@ -28,8 +28,10 @@ MBTA stations
 - MBTA_NODE.shp
 - Source: https://hub.arcgis.com/maps/massgis::mbta-rapid-transit/about
 
-GoogleMapsPaths folder:
 
+
+GoogleMapsPaths folder:
+-
 Can read these in instead of rescraping
 
 - bikeStation_bikeStation_dist_dict.json: JSON of walking time from each bike station to the other
